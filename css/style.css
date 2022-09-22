@@ -7,7 +7,7 @@
 nav {
     display: flex;
     background-color: red;
-    padding: 20px;
+    padding: 30px;
 }
 
 ul {
@@ -26,7 +26,7 @@ li {
 
 .container {
     width: 100%;
-    height: 500px;
+    height: 750px;
     background-color: #B4D0E7;
 }
 
@@ -46,9 +46,63 @@ li {
 
 .dropbox-layout-img {
     background-color: blue;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     position: absolute;
     right: 0;
-    bottom: -40px;
+    bottom: -50px;
 }
+
+.sub-container {
+    width: 50%;
+    height: 50000px;
+    background-color: darkseagreen;
+    margin: 0 auto;
+}
+
+h2 {
+    height: 200px;
+    background-color: lightslategray;
+    margin-bottom: 15px;
+}
+
+.payment-plans {
+    height: 1000px;
+    background-color: peru;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.plan {
+    width: 30%;
+    background-color: magenta;
+    height: 900px;
+}
+
+.info-enterprise {
+    width: 100%;
+    height: 200px;
+    background-color: midnightblue;
+    margin-bottom: 70px;
+}
+
+.partner {
+    height: 500px;
+    width: 100%;
+    background-color: hotpink;
+    margin-bottom: 70px;
+}
+
+.partner .partner-img {
+    width: 50%;
+    background-color: black;
+    height: 400px;
+}
+
+section {
+    display: flex;
+}
+
+.little-info

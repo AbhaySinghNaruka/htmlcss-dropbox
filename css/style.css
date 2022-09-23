@@ -46,7 +46,7 @@ li {
 
 .dropbox-layout-img {
     background-color: blue;
-    width: 600px;
+    width: 700px;
     height: 400px;
     position: absolute;
     right: 0;
@@ -55,10 +55,11 @@ li {
 
 .sub-container {
     width: 50%;
-    height: 50000px;
+    height: 3500px;
     background-color: darkseagreen;
     margin: 0 auto;
 }
+
 
 h2 {
     height: 200px;
@@ -101,8 +102,85 @@ h2 {
     height: 400px;
 }
 
-section {
+.infos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 250px;
 }
 
-.little-info
+.little-info {
+    margin-top: 35px;
+    width: 30%;
+    height: 300px;
+    background-color: crimson;
+}
+
+.info-title {
+    height: 70px;
+    background-color: lightslategray;
+    margin-bottom: 15px;
+}
+
+.section-footer {
+    width: 60%;
+    height: 190px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-brand {
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
+    height: 528.62px;
+    background-color: black;
+}
+
+.sides-container .brand  { /* set sizes to 50% -----------------------*/
+    width: 49%;
+    height: 49%;
+    background-color: blueviolet;
+    opacity: .5;
+}
+
+.partners-container .middle-container {
+    background-color: cyan;
+}
+
+.prova-gratuita {
+    background-color: #B4D0E7;
+    height: 300px;
+    width: 100%;
+}
+
+.sub-container.domande-frequenti {
+    height: 500px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+
+footer .footer-content-top-part {
+    width: 60%;
+    background-color: white;
+    height: 50%;
+    margin: 0 auto;
+}
+
+footer .footer-content-bot-part {
+    width: 60%;
+    background-color: darkgreen;
+    height: 30%;
+    margin: 0 auto;
+}

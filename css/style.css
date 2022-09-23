@@ -1,186 +1,226 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mt-45 {
+    margin-top: 45px;
 }
 
 nav {
-    display: flex;
-    background-color: red;
-    padding: 30px;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  /* position: fixed;
+    z-index: 90; */
 }
 
 ul {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
 }
 
 li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .right-header {
-    margin-left: auto;
+  margin-left: auto;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
 }
 
 .container {
-    width: 100%;
-    height: 750px;
-    background-color: #B4D0E7;
+  width: 100%;
+  /* height: 700px; */
+  background-color: #b4d0e7;
 }
 
-.container .content {
-    width: 60%;
-    background-color: white;
-    height: 85%;
-    margin: 0 auto;
-    position: relative;
+h1 {
+  padding-top: 50px;
+  font-size: 90px;
+  padding-bottom: 50px;
 }
 
-.big-title {
-    background-color: blueviolet;
-    width: 100%;
-    height: 30%;
+.spaziatura {
+  width: 60%;
+  height: 40%;
+  margin: 0 auto;
+  position: relative;
 }
 
-.dropbox-layout-img {
-    background-color: blue;
-    width: 700px;
-    height: 400px;
+.spaziatura .header-text {
+    width: 30%;
+    height: 470px;
+    /* background-color: rgb(135, 135, 255); */
+}
+
+.header-text-lorem {
+    font-size: 18px;
+}
+
+.arrow-down {
     position: absolute;
-    right: 0;
-    bottom: -50px;
+    bottom: 5px;
+    left: 15px;
+    font-size: 50px;
+}
+
+.text-jumbo .header-img {
+  width: 70%;
+  height: 470px;
+  /* background-color: black; */
+}
+
+img.dropbox-layout-img {
+    width: 115%;
+}
+
+.text-jumbo {
+    display: flex;
+    width: 100%;
+}
+
+.prova-gratuita-1 {
+    background-color: rgb(88, 88, 255);
+    display: inline-block;
+    padding: 10px;
 }
 
 .sub-container {
-    width: 50%;
-    height: 3500px;
-    background-color: darkseagreen;
-    margin: 0 auto;
+  width: 50%;
+  height: 3500px;
+  background-color: darkseagreen;
+  margin: 0 auto;
 }
 
-
 h2 {
-    height: 200px;
-    background-color: lightslategray;
-    margin-bottom: 15px;
+  height: 200px;
+  background-color: lightslategray;
+  margin-bottom: 15px;
+  margin-top: 60px;
 }
 
 .payment-plans {
-    height: 1000px;
-    background-color: peru;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+  height: 1000px;
+  background-color: peru;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .plan {
-    width: 30%;
-    background-color: magenta;
-    height: 900px;
+  width: 30%;
+  background-color: magenta;
+  height: 900px;
 }
 
 .info-enterprise {
-    width: 100%;
-    height: 200px;
-    background-color: midnightblue;
-    margin-bottom: 70px;
+  width: 100%;
+  height: 200px;
+  background-color: midnightblue;
+  margin-bottom: 70px;
 }
 
 .partner {
-    height: 500px;
-    width: 100%;
-    background-color: hotpink;
-    margin-bottom: 70px;
+  height: 500px;
+  width: 100%;
+  background-color: hotpink;
+  margin-bottom: 70px;
 }
 
 .partner .partner-img {
-    width: 50%;
-    background-color: black;
-    height: 400px;
+  width: 50%;
+  background-color: black;
+  height: 400px;
 }
 
 .infos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 250px;
 }
 
 .little-info {
-    margin-top: 35px;
-    width: 30%;
-    height: 300px;
-    background-color: crimson;
+  margin-top: 35px;
+  width: 30%;
+  height: 300px;
+  background-color: crimson;
 }
 
 .info-title {
-    height: 70px;
-    background-color: lightslategray;
-    margin-bottom: 15px;
+  height: 70px;
+  background-color: lightslategray;
+  margin-bottom: 15px;
 }
 
 .section-footer {
-    width: 60%;
-    height: 190px;
-    background-color: white;
-    margin-bottom: 100px;
+  width: 60%;
+  height: 190px;
+  background-color: white;
+  margin-bottom: 100px;
 }
 
 .partners-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .partners-brand {
-    display: flex;
-    flex-wrap: wrap;
-    width: 32%;
-    height: 528.62px;
-    background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 32%;
+  height: 528.62px;
+  background-color: black;
 }
 
-.sides-container .brand  { /* set sizes to 50% -----------------------*/
-    width: 49%;
-    height: 49%;
-    background-color: blueviolet;
-    opacity: .5;
+.sides-container .brand {
+  /* set sizes to 50% -----------------------*/
+  width: 49%;
+  height: 49%;
+  background-color: blueviolet;
+  opacity: 0.5;
 }
 
 .partners-container .middle-container {
-    background-color: cyan;
+  background-color: cyan;
 }
 
 .prova-gratuita {
-    background-color: #B4D0E7;
-    height: 300px;
-    width: 100%;
+  background-color: #b4d0e7;
+  height: 300px;
+  width: 100%;
 }
 
 .sub-container.domande-frequenti {
-    height: 500px;
-    margin-top: 75px;
-    margin-bottom: 75px;
+  height: 500px;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 footer {
-    background-color: black;
-    height: 500px;
-    width: 100%;
+  background-color: black;
+  height: 500px;
+  width: 100%;
 }
 
 footer .footer-content-top-part {
-    width: 60%;
-    background-color: white;
-    height: 50%;
-    margin: 0 auto;
+  width: 60%;
+  background-color: white;
+  height: 50%;
+  margin: 0 auto;
 }
 
 footer .footer-content-bot-part {
-    width: 60%;
-    background-color: darkgreen;
-    height: 30%;
-    margin: 0 auto;
+  width: 60%;
+  background-color: darkgreen;
+  height: 30%;
+  margin: 0 auto;
 }

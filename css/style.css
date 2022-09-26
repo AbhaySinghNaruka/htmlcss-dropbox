@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
+.big-bot-padding {
+  padding-bottom: 50px;
+}
+
+.padding {
+  padding-bottom: 15px;
+}
+
 .mt-45 {
     margin-top: 45px;
 }
@@ -16,13 +28,13 @@ nav {
     z-index: 90; */
 }
 
-ul {
+.header-list {
   list-style: none;
   text-decoration: none;
   display: flex;
 }
 
-li {
+.header-list-items {
   padding: 0 10px;
 }
 
@@ -38,7 +50,7 @@ li {
 .container {
   width: 100%;
   /* height: 700px; */
-  background-color: #b4d0e7;
+  /* background-color: #b4d0e7; */
 }
 
 h1 {
@@ -95,20 +107,24 @@ img.dropbox-layout-img {
 .sub-container {
   width: 50%;
   height: 3500px;
-  background-color: darkseagreen;
+  /* background-color: darkseagreen; */
   margin: 0 auto;
 }
 
-h2 {
+.payment-header {
   height: 200px;
-  background-color: lightslategray;
+  /* background-color: lightslategray; */
   margin-bottom: 15px;
   margin-top: 60px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 .payment-plans {
   height: 1000px;
-  background-color: peru;
+  /* background-color: peru; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -117,55 +133,97 @@ h2 {
 
 .plan {
   width: 30%;
-  background-color: magenta;
+  /* background-color: magenta; */
   height: 900px;
 }
 
-.info-enterprise {
+.info-enterprise-container {
   width: 100%;
   height: 200px;
-  background-color: midnightblue;
+  /* background-color: midnightblue; */
   margin-bottom: 70px;
+  border: 1px solid lightgray;
 }
 
 .partner {
   height: 500px;
   width: 100%;
-  background-color: hotpink;
+  /* background-color: hotpink; */
   margin-bottom: 70px;
+  display: flex;
+}
+
+.partner-container{
+  width: 35%;
+  margin: 0 auto;
+}
+
+.partner-title {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-partner {
+  background-color: white;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 15px;
+  border: 1px solid black;
 }
 
 .partner .partner-img {
-  width: 50%;
-  background-color: black;
+  width: 60%;
+  /* background-color: black; */
   height: 400px;
+}
+
+.info-title {
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 .infos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 250px;
+  margin-bottom: 125px;
 }
 
 .little-info {
   margin-top: 35px;
   width: 30%;
-  height: 300px;
-  background-color: crimson;
+  height: 400px;
+  /* background-color: crimson; */
+}
+
+.little-info .little-image {
+  width: 100%;
 }
 
 .info-title {
   height: 70px;
-  background-color: lightslategray;
+  /* background-color: lightslategray; */
   margin-bottom: 15px;
 }
 
-.section-footer {
-  width: 60%;
+.little-image-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.little-image-footer {
+  width: 55%;
   height: 190px;
   background-color: white;
   margin-bottom: 100px;
+}
+
+.business-users-info {
+  font-size: 35px;
+  margin-bottom: 70px;
 }
 
 .partners-container {
@@ -224,3 +282,99 @@ footer .footer-content-bot-part {
   height: 30%;
   margin: 0 auto;
 }
+
+.type-plan {
+  text-align: center;
+}
+
+.main{
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+.sub {
+  padding-bottom: 10px;
+}
+
+
+
+.plan {
+  border: 2px solid lightgray;
+}
+
+/* .payment-plans {
+  border-style: ridge;
+  border: 5px solid lightgray;
+} */
+
+.type-plan {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid lightgrey;
+  border-top-style: none;
+  border-right: none;
+  border-left: none;
+}
+
+.info-plans-container {
+  width: 225px;
+  margin: 0 auto;
+}
+
+.thirty-days-free{
+  text-align: center;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.buy-now {
+  padding-bottom: 35px;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.punti-salienti {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.plans {
+  margin-bottom: 10px;
+}
+
+.info-enterprise {
+  display: flex;
+}
+
+.enterprise-container-width {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contatta-ufficio {
+  margin-left: auto;
+  background-color: blue;
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.margin-top-enterprise {
+  margin-top: 15px;
+}
+
+.bold-enterprise {
+  font-size: 25px;
+}
+
+.text-enterprise-info {
+  margin-top: 25px;
+  width: 75%;
+}
+

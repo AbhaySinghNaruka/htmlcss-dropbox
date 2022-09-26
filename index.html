@@ -10,19 +10,19 @@
   <body>
     <nav>
       <div class="left-header">
-        <ul>
-          <li><img src="img/logo-small.png" alt="" /></li>
-          <li>Perchè Dropbox</li>
-          <li>Funzioni</li>
-          <li>Piani e Prezzi</li>
+        <ul class="header-list">
+          <li class="header-list-items"><img src="img/logo-small.png" alt="" /></li>
+          <li class="header-list-items">Perchè Dropbox</li>
+          <li class="header-list-items">Funzioni</li>
+          <li class="header-list-items">Piani e Prezzi</li>
         </ul>
       </div>
       <div class="right-header">
-        <ul>
-          <li>Supporto</li>
-          <li>Contatta l'ufficio vendite</li>
-          <li>Accedi</li>
-          <li class="btn">Inizia</li>
+        <ul class="header-list">
+          <li class="header-list-items">Supporto</li>
+          <li class="header-list-items">Contatta l'ufficio vendite</li>
+          <li class="header-list-items">Accedi</li>
+          <li class="header-list-items btn">Inizia</li>
         </ul>
       </div>
     </nav>
@@ -58,32 +58,245 @@
     </header>
 
     <div class="sub-container payments-container">
-      <h2 class="payment"></h2>
-      <!-- aggiungere tipi di pagamento, i due cerchi -->
-      <div class="payment-plans">
-        <div class="plan professional-plan"></div>
-        <div class="plan advanced-plan"></div>
-        <div class="plan enterprise-plan"></div>
+      <div class="payment-header">
+        <h2>Trova il piano business che fa per te</h2>
+        <div class="fatturazione">
+          Fatturazione mensile <span>Fatturazione annuale</span>
+        </div>
       </div>
-      <div class="info-enterprise"></div>
+      
+      <div class="payment-plans">
+        <div class="plan professional-plan">
+          <div class="type-plan">
+            Singolo
+          </div>
+          <div class="info-plans-container">
+            
+            <h2 class="main professional">
+              Professional
+            </h2>
+            <div class="sub price">
+              € 12.00
+            </div>
+            <div class="big-bot-padding lenght">
+              /mese
+            </div>
+
+            <div class="padding description-plans">
+              <div class="padding forwho">
+                1 utente
+              </div>
+              <div class="padding space">
+                5 TB di spazio di archiviazione sicuro
+              </div>
+              <div class="big-bot-padding functions">
+                Funzioni di produttività premium, e condivisione file semplice e sicura
+              </div>
+            </div>
+            <div class="freetrial">
+              <div class="thirty-days-free">
+                Prova gratis 30 giorni
+              </div>
+              <div class="buy-now">
+                oppure <a href="">acquista ora</a>
+              </div>
+              <div class="punti-salienti">
+                <h4>Punti Salienti del piano</h4>
+              </div>
+              <ul class="list-plans">
+                <li class="plans">Invia file fino a 100 GB con Dopbox Transfert</li>
+                <li class="plans">Cartelle offline su dispositivi mobili</li>
+              </ul>
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="plan advanced-plan">
+          <div class="type-plan">
+            Team
+          </div>
+          <div class="info-plans-container">
+            
+            <h2 class="main advanced">
+              Advanced
+            </h2>
+            <div class="sub price">
+              € 18.00
+            </div>
+            <div class="big-bot-padding lenght">
+              /utente/mese
+            </div>
+
+            <div class="padding description-plans">
+              <div class="padding forwho">
+                3 o più utenti
+              </div>
+              <div class="padding space">
+                Tutto lo spazio di cui ha bisogno il tuo team
+              </div>
+              <div class="big-bot-padding functions">
+                Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo teams
+              </div>
+            </div>
+            <div class="freetrial">
+              <div class="thirty-days-free">
+                Prova gratis 30 giorni
+              </div>
+              <div class="buy-now">
+                oppure <a href="">acquista ora</a>
+              </div>
+              <div class="punti-salienti">
+                <h4>Punti Salienti del piano</h4>
+              </div>
+              <ul class="list-plans">
+                <li class="plans">Nessun limite di spazio per i file</li>
+                <li class="plans">Cartelle offline su dispositivi mobili</li>
+                <li class="plans">Risparmio del 50% rispetto alle iscrizioni singole</li>
+                <li class="plans">Possibilità di inserire nuovi membri singole</li>
+                <li class="plans">Gestione dei permessi in base ai ruoli</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="plan enterprise-plan">
+          <div class="type-plan">
+            Azienda
+          </div>
+          <div class="info-plans-container">
+            
+            <h2 class="main enterprise">
+              Enterprise
+            </h2>
+            <div class="sub price">
+              Contattaci
+            </div>
+            <div class="big-bot-padding lenght">
+              -
+            </div>
+
+            <div class="padding description-plans">
+              <div class="padding forwho">
+                10 o più utenti
+              </div>
+              <div class="padding space">
+                Soluzioni personalizzabili per la tua azienda
+              </div>
+              <div class="big-bot-padding functions">
+                Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+              </div>
+            </div>
+            <div class="freetrial">
+              <div class="thirty-days-free">
+                Contattaci
+              </div>
+              <div class="buy-now">
+                oppure <a href="">acquista ora</a>
+              </div>
+              <div class="punti-salienti">
+                <h4>Punti Salienti del piano</h4>
+              </div>
+              <ul class="list-plans">
+                <li class="plans">Cartelle offline su dispositivi mobili</li>
+                <li class="plans">Servizio assitenza 24/h</li>
+                <li class="plans">Possibilità di personalizzazione totale</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info-enterprise-container">
+        <div class="type-plan">
+          Team
+        </div>
+        <div class="enterprise-container-width">
+          <div class="info-enterprise">
+            <div class="margin-top-enterprise text-enterprise">
+              <div class="bold-enterprise">Enterprise</div>
+            </div>
+            <div class="margin-top-enterprise contatta-ufficio">Contatta l'ufficio vendite</div>
+          </div>
+          <div>Contatta l'ufficio vendite per i prezzi</div>
+          <div class="text-enterprise-info">
+            Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala
+          </div>
+        </div>
+        
+      </div>
       <div class="partner">
-        <div class="partner-img"></div>
+          <img class="partner-img" src="img/partner.png" alt="">
+          <div class="partner-container">
+            <div class="partner-title">Entra in contatto con un partner Dropbox</div>
+            <div class="partner-content">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obitettivi aziendali, tra cui implementazione, integrazione, gestion e supporto continui.</div>
+            <div class="btn-partner">Trova un partner</div>
+          </div>
       </div>
 
-      <div class="info-container">
+      <div class="info-container-six-boxes">
         <div class="info-title">
-          <h2 class="info-title"></h2>
+          Esegui più operazioni con Dropbox Business
         </div>
         <div class="infos">
-          <div class="little-info"></div>
-          <div class="little-info"></div>
-          <div class="little-info"></div>
-          <div class="little-info"></div>
-          <div class="little-info"></div>
-          <div class="little-info"></div>
+          <div class="little-info">
+            <img class="little-image" src="img/business-feature-switching-tools.png" alt="">
+            <div class="little-image-title">
+              Passa di meno da uno strumento all'altro
+            </div>
+            <div class="little-image-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam aspernatur porro ea! Sapiente in aperiam facilis maiores ducimus? Hic, similique deleniti voluptate itaque cumque dolore repellendus recusandae expedita necessitatibus?
+            </div>
+          </div>
+          <div class="little-info">
+            <img class="little-image" src="img/business-feature-send-files-it.png" alt="">
+            <div class="little-image-title">
+              Passa di meno da uno strumento all'altro
+            </div>
+            <div class="little-image-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam aspernatur porro ea! Sapiente in aperiam facilis maiores ducimus? Hic, similique deleniti voluptate itaque cumque dolore repellendus recusandae expedita necessitatibus?
+            </div>
+          </div>
+          <div class="little-info">
+            <img class="little-image" src="img/business-feature-coordinate-it.png" alt="">
+            <div class="little-image-title">
+              Passa di meno da uno strumento all'altro
+            </div>
+            <div class="little-image-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam aspernatur porro ea! Sapiente in aperiam facilis maiores ducimus? Hic, similique deleniti voluptate itaque cumque dolore repellendus recusandae expedita necessitatibus?
+            </div>
+          </div>
+          <div class="little-info">
+            <img class="little-image" src="img/business-feature-integrations-it.png" alt="">
+            <div class="little-image-title">
+              Passa di meno da uno strumento all'altro
+            </div>
+            <div class="little-image-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam aspernatur porro ea! Sapiente in aperiam facilis maiores ducimus? Hic, similique deleniti voluptate itaque cumque dolore repellendus recusandae expedita necessitatibus?
+            </div>
+          </div>
+          <div class="little-info">
+            <img class="little-image" src="img/business-feature-multi-device.png" alt="">
+            <div class="little-image-title">
+              Passa di meno da uno strumento all'altro
+            </div>
+            <div class="little-image-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam aspernatur porro ea! Sapiente in aperiam facilis maiores ducimus? Hic, similique deleniti voluptate itaque cumque dolore repellendus recusandae expedita necessitatibus?
+            </div>
+          </div>
+          <div class="little-info">
+            <img class="little-image" src="img/business-feature-security.png" alt="">
+            <div class="little-image-title">
+              Passa di meno da uno strumento all'altro
+            </div>
+            <div class="little-image-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam aspernatur porro ea! Sapiente in aperiam facilis maiores ducimus? Hic, similique deleniti voluptate itaque cumque dolore repellendus recusandae expedita necessitatibus?
+            </div>
+          </div>
         </div>
 
-        <div class="section-footer"></div>
+        <div class="little-image-footer">
+          <div class="business-users-info">Più di 500.000 team utilizzano Dropbox Business</div>
+          <div class="link-customers"><a href="">Scopri di più sui nostri clienti</a></div>
+        </div>
       </div>
     </div>
 

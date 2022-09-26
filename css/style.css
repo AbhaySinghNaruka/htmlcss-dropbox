@@ -107,7 +107,7 @@ img.dropbox-layout-img {
 .sub-container {
   width: 50%;
   height: 3500px;
-  /* background-color: darkseagreen; */
+  background-color: darkseagreen;
   margin: 0 auto;
 }
 
@@ -236,15 +236,48 @@ h2 {
   flex-wrap: wrap;
   width: 32%;
   height: 528.62px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .sides-container .brand {
   /* set sizes to 50% -----------------------*/
-  width: 49%;
-  height: 49%;
-  background-color: blueviolet;
-  opacity: 0.5;
+  width: 50%;
+  height: 50%;
+  /* background-color: blueviolet; */
+  /* opacity: 0.5; */
+}
+
+.brand-1 {
+  border: 10px solid #D1E9CD;
+  background-color: #A2D39B;
+}
+
+.brand-2 {
+  background-color: #61082B;
+}
+
+.brand-3 {
+  background-color: #0093CE;
+}
+
+.brand-4 {
+  background-color: #FF1C1C;
+}
+
+.brand-5 {
+  background-color: #D5001F;
+}
+
+.brand-6 {
+  background-color: #B4D0E7;
+}
+
+.brand-7 {
+  background-color: #0D2481;
+}
+
+.brand-8 {
+  background-color: #FFD830;
 }
 
 .partners-container .middle-container {
